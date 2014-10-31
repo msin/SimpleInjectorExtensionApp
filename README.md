@@ -12,8 +12,3 @@ https://documentation.devexpress.com/#WPF/CustomDocument15112
 
 This is the best MVVM Framework I've ever seen.
 
-But there is a limitation - a ViewModel is emitted with the default constructor and there is no possibility for constructor injection (auto-wire)
-https://www.devexpress.com/Support/Center/Question/Details/T152613
-
-So you have to resolve dependencies explicitely:
-IMainVM _main = App.container.GetInstance<IMainVM>();
